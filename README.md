@@ -109,7 +109,7 @@ b = np.array([15, 18])
 r = np.linalg.solve(a, b)   # a is array of parameters contained n sub-arrays (n equations)
 print("x = " + str(r[0]) + ", y = " + str(r[1]))
 ```
-===> x = 4.0, y = 2.3333333333333335
+===> x = 4.0; y = 2.3333333333333335
 
 b) Write a small program that given the length of 2 legs, calculate the length of the hypotenuse of a rectangular triangle
 
@@ -130,9 +130,7 @@ while True:
      c = np.sqrt(np.power(int(a), 2) + int(b)**2)
      print("c = " + str(c))
 ```
-===> Enter leg 1: 3
-     Enter leg 2: 4
-     [5.]
+===> Enter leg 1: 3; Enter leg 2: 4; [5.]
 
 c) Calculates the shortest distance from (0,0,0) to any point(x,y,z) in 3D space
 Remind: Distance = sqrt(|x2-x1|^2 + |y2-y1|^2 + |z2-z1|^2)
@@ -149,6 +147,5 @@ print("Disance = " + str(r1))
 r2 = np.sqrt(np.sum(np.power(a - b, 2)))
 print("Disance = " + str(r2))
 ```
-===> x: 3, y: 4, z: 5
-Disance = 7.0710678118654755
+===> x: 3; y: 4; z: 5; Disance = 7.0710678118654755
 
