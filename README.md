@@ -86,7 +86,11 @@ print(x.mean()) #print(np.mean(x)) works the same ---> 14.0
 y = np.arange(-3, 18)
 print(y)  ---> [-3 -2 -1  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17]
 
-print(np.dot(x,y)) #scalar product of x and y  ---> 2828
+#Scalar product of x and y
+print(x*y) ---> [-12 -10  -6   0   8  18  30  44  60  78  98 120 144 170 198 228 260 294 330 368 408]
+
+#Matrices multiplication
+print(np.dot(x,y)) ---> 2828
 #or
 print(np.matmul(x,y))
 #or
